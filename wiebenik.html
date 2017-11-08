@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<title>wie ben ik</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://use.fontawesome.com/a8e79a785a.js"></script>
+
+<body>
+
+<h1>Wie ben ik</h1>
+  <nav>
+    <li>
+      <a href="index.html">Home</a>
+      <a href="opleiding.html">Opleiding</a>
+      <a href="overmij.html">Over mij</a>
+      <a href="wiebenik.html">Wie ben ik</a>
+      <a href="beroep.html">Beroep</a>
+    </li>
+  </nav>
+  <main id="size">
+      <article>
+          
+          <h2>Hobby's</h2>
+          <ul>
+            <li>Gamen</li>
+            <li>Programmeren</li>
+            <li>Series kijken</li>
+            <li>eSports</li>
+        </ul>
+    </article>
+    <article>
+      <h2>Ik als persoon</h2>
+     <p>Ik ben een rustig persoon die tegen stress kan en heel competitief is.Ik hou van uitdagingen</p>
+      
+    </article>
+  
+
+
+
+
+
+<div style="max-width:500px; ">
+  <img class="mySlides" src="images/pc-gaming.jpg" style="width:100%">
+  <img class="mySlides" src="images/gnome.jpg" style="width:100%" >
+  <img class="mySlides" src="images/programmeren.jpg" style="width:100%">
+  <img class="mySlides" src="images/Esport.jpeg" style="width:100%">
+
+</div>
+</main>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  <aside>
+      <h2>Social media</h2>
+     <a href="https://github.com/jelmervandijk" target="blank"> <i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+     <a href="https://www.linkedin.com/in/jelmer-van-dijk-a29733152/" target="blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+    </a>
+
+    </aside>
+
+  <footer>
+    <p>Digitaal-portofolio van  Jelmer van Dijk <a href="https://github.com/jelmervandijk" target="blank"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/jelmer-van-dijk-a29733152/" target="blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></p>
+  </footer>
+  
+</body>
+</html>

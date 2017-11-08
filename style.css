@@ -1,0 +1,100 @@
+body{
+	font-family: 'Ubuntu Mono', monospace;
+	background-image: url(images/crumpled-white-paper.jpg);
+	margin: 0 auto;	
+	
+}
+nav{	
+	text-align: center;
+}
+nav li{
+	list-style: none;
+	padding: 20px;
+	background-color: #f2f2f2
+}
+nav li a{
+	display: inline-block;
+	padding: 20px;
+	padding-left: 25px;
+	text-decoration: none;
+}
+nav li a:hover{
+	border: 2px solid black;
+} 
+
+h1{
+	text-align: center;
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align:center;
+}
+
+main{
+	margin: auto;
+	background-color:#f7f7f7;
+	border: 2px solid black;
+	width: 600px;
+
+}
+#rood{
+	width: 200px;
+	height: 25	0px;
+	float: left;
+	padding-right: 10px;
+}
+
+
+section{
+	width: 1000px;
+	margin: auto;
+	background-color: #fff;
+}
+section a:hover{
+ border-bottom:1px solid #000;
+}
+section a{
+	color: red;
+	text-decoration: none;	
+}
+aside{
+	position: fixed;	
+	bottom: 700px;
+	left: 1500px;
+}
+#red{
+	float: right;
+	width: 300px;
+}
+.space{
+	width: 400px;
+	height: 300px;
+	padding-left: 20px;
+}
+h2{
+	text-align: center;
+}
+#size{
+	width: 700px;
+
+}
+#groot{
+margin-bottom: 180px;
+}
+p{
+	padding: 4px;
+}
+#pc{
+	width: 600px;
+}
+@media only screen and (max-width: 360px) {
+
+}
+i{
+	color: black;
+}
+main p{
+	padding-left: 10px;
+}
