@@ -27,7 +27,6 @@ h1{
 }
 footer{
 	position: absolute;
-	bottom: 0px;
 	width: 100%;
 	text-align:center;
 }
@@ -89,8 +88,21 @@ p{
 #pc{
 	width: 600px;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 361px) (max-height: 641px;) {
+    main {
+        width: 360px
 
+    }
+    article{
+    	width: 200px;
+    }
+    #pc{
+    	width: 0px;
+    }
+    #media{
+    	width: 0px;
+
+    }
 }
 i{
 	color: black;
